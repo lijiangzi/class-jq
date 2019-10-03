@@ -1,5 +1,5 @@
 
-var pageSize = 10;
+var pageSize = 8;
 var nowPage = 1;
 var tableData = [];
 var searchWord = "";
@@ -164,10 +164,10 @@ function renderTable(data) {
 // 不一样的作为参数传递  相同的代码封装到函数里面
 function transferData(api, data, callback) {
     if ($.type(data) == 'string') {
-        data += "&appkey=dongmeiqi_1547441744650";
+        data += "&appkey=haizeiwang_1554459899292";
     } else {
         data = $.extend(data, {
-            appkey: 'dongmeiqi_1547441744650'
+            appkey: 'haizeiwang_1554459899292'
         });
     }
     $.ajax({

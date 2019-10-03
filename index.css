@@ -1,16 +1,19 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: 14px;
-    color: #b3bcc5;
+    
+    
 }
 
 html,body {
     height: 100%;
+    
 }
 .wrapper {
     width: 100%;
     height: 100%;
+    font-size: 14px;
+    color: #b3bcc5;
     background-color: #eee;
 }
 .wrapper .header {
@@ -23,6 +26,9 @@ html,body {
     width: 200px;
     height: 70px;
     line-height: 70px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
 }
 .wrapper .header .logo img {
     width: 30px;
@@ -195,18 +201,22 @@ table button.btn.del:hover {
 }
 
 #turn-page {
-    float: right;
+    /* float: right; */
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
     /* border: 1px solid #000; */
     margin: 10px;
 }
 #turn-page li {
     display: inline-block;
     padding: 3px 10px;
-    border: 1px solid #ddd;
+    border: 1px solid blue;
     height: 25px;
     line-height: 25px;
     cursor: pointer;
     margin: 0 5px;
+    color: black;
 }
 #turn-page li.cur-page {
     background-color: #428bca;
@@ -228,10 +238,10 @@ table button.btn.del:hover {
 }
 
 .search input {
-    font-size: 16px;
-    width: 200px;
-    height: 30px;
-    border: none;
+    padding:10px;
+    border:1px solid #bbb;
+    border-radius: 5px;
+    margin-right:10px;
     outline: none;
 }
 #search-submit {

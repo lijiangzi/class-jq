@@ -1,1 +1,1 @@
-# class-jq
+# class-js
